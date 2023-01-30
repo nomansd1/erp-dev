@@ -1,0 +1,34 @@
+.bx {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg__squircle {
+    height: 350px;
+    width: 350px;
+    border-radius: 80px;
+    position: absolute;
+}
+.squircle1 {
+    left: -110px;
+    bottom: 20px;
+    transform: rotate(50deg);
+    background-image: linear-gradient(to right, #03B7EC, #0D6EE2);
+}
+.squircle2 {
+    right: -110px;
+    top: 0;
+    transform: rotate(50deg);
+    background-image: linear-gradient(to left, #03B7EC, #0D6EE2);
+}
+mat-card {
+    width: 400px;
+    border: 2px solid red;
+}
+mat-card mat-card-header h1 {
+    text-align: center;
+}
